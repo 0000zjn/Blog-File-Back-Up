@@ -141,7 +141,7 @@ def cut_photo():
     调用Graphics类中的裁剪算法，将src_dir目录下的文件进行裁剪（裁剪成正方形）
     """
     src_dir = "photos/"
-    tmp_dir = "tmp/"
+    tmp_dir = "temp/"
     if directory_exists(src_dir):
         if not directory_exists(tmp_dir):
             make_directory(tmp_dir)
